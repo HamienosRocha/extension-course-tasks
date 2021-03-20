@@ -33,4 +33,4 @@ Criação de um site qualquer contendo:
 - [x] rodapé
 - [x] e obrigatoriamente uma pagina "Sobre mim"
 
-As tarefas estão dentro do diretório `/tasks`.
+**As tarefas estão dentro do diretório `/tasks`.**
