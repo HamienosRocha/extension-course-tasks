@@ -41,8 +41,7 @@ header a {
 }
 
 header a:hover {
-  text-shadow: 0.2rem 0.2rem 0 white, 0.5rem 0.5rem 0 var(--green),
-    0.7rem 0.7rem 0 var(--blue), 0.9rem 0.9rem 0 var(--red);
+  text-shadow: 0.3rem 0.2rem 0 white;
 }
 
 main {
