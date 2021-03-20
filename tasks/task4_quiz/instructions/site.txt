@@ -1,0 +1,8 @@
+Criar um site qualquer site (pessoal, para uma empresa, de notificais...) 
+
+O site deve conter:
+ - No mínimo 2 páginas.
+ - Menu vertical ou horizontal
+ - Imagens
+ - Rodapé
+ - E obrigatoriamente uma pagina sobre você

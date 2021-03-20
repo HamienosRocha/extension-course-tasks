@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios JS | Atividades do Curso de Extensão - Ceuma</title>
+
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/page_task3_js-exercises.css" />
+    <link rel="stylesheet" href="../styles/cards.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="page-task-3">
+    <div id="container">
+      <a href="../index.html">Home</a>
+      <div id="grid">
+        <div class="cards ex1">
+          <div class="cards__title">
+            <h2>Exercício 01</h2>
+          </div>
+          <label for="ex1__input">Informe um número</label>
+          <input type="number" id="ex1__input" />
+          <button id="ex1__btn-ok">Ok</button>
+        </div>
+
+        <div class="cards ex2">
+          <div class="cards__title">
+            <h2>Exercício 02</h2>
+          </div>
+          <label for="ex2__input-meter">Metros</label>
+          <input id="ex2__input-meter" type="number" min="0" />
+
+          <label for="ex2__input-disabled-centimeter">Centímetros</label>
+          <input
+            id="ex2__input-disabled-centimeter"
+            type="number"
+            disabled="disabled"
+          />
+        </div>
+
+        <div class="cards">
+          <div class="cards__title">
+            <h2>Exercício 03</h2>
+          </div>
+
+          <label for="ex3__input-centimeter">Centímetros</label>
+          <input id="ex3__input-centimeter" type="number" min="0" />
+
+          <label for="ex3__input-disabled-inch">Polegadas</label>
+          <input
+            id="ex3__input-disabled-inch"
+            type="number"
+            disabled="disabled"
+          />
+        </div>
+
+        <div class="cards">
+          <div class="cards__title">
+            <h2>Exercício 04</h2>
+          </div>
+
+          <label for="ex4__input-radius">Raio</label>
+          <input id="ex4__input-radius" type="number" min="0" step="0.1" />
+
+          <label for="ex4__input-disabled-area">Área</label>
+          <input
+            id="ex4__input-disabled-area"
+            type="number"
+            disabled="disabled"
+          />
+        </div>
+
+        <div class="cards">
+          <div class="cards__title">
+            <h2>Exercício 05</h2>
+          </div>
+
+          <label for="ex5__input-farenheit">Farenheit</label>
+          <input id="ex5__input-farenheit" type="number" />
+
+          <label for="ex5__input-disabled-celsius">Celsius</label>
+          <input
+            id="ex5__input-disabled-celsius"
+            type="number"
+            disabled="disabled"
+          />
+        </div>
+
+        <div class="cards">
+          <div class="cards__title">
+            <h2>Exercício 06</h2>
+          </div>
+
+          <label for="ex6__notes"> Insira as notas separadas por ' ; ' </label>
+          <input type="text" id="ex6__input-notes" />
+
+          <label for="ex6__input-mean"> Média </label>
+          <input id="ex6__input-mean" type="text" disabled="disabled" />
+        </div>
+
+        <div class="cards">
+          <div class="cards__title">
+            <h2>Exercício 07</h2>
+          </div>
+
+          <label for="ex7__input-celsius">Celsius</label>
+          <input id="ex7__input-celsius" type="number" />
+
+          <label for="ex7__input-disabled-farenheit">Farenheit</label>
+          <input
+            id="ex7__input-disabled-farenheit"
+            type="number"
+            disabled="disabled"
+          />
+        </div>
+
+        <div class="cards ex8">
+          <div class="cards__title">
+            <h2>Exercício 08</h2>
+          </div>
+          <div class="ex8__div-inputs">
+            <div id="ex8__div-price-gas">
+              <input id="ex8__input-gas" type="number" min="0" />
+            </div>
+            <div id="ex8__div-price-alc">
+              <input id="ex8__input-alc" type="number" min="0" />
+            </div>
+
+            <button id="ex8__btn-verify">Verificar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modalID" class="modal-container">
+      <div class="modal">
+        <label for="modalID" id="modal__title"> </label>
+        <p id="modal__message"></p>
+        <button class="modal__btn-close">&times;</button>
+      </div>
+    </div>
+
+    <script src="../js/exercises/ex2.js"></script>
+    <script src="../js/exercises/ex3.js"></script>
+    <script src="../js/exercises/ex1.js"></script>
+    <script src="../js/exercises/ex4.js"></script>
+    <script src="../js/exercises/ex5.js"></script>
+    <script src="../js/exercises/ex6.js"></script>
+    <script src="../js/exercises/ex7.js"></script>
+    <script src="../js/exercises/ex8.js"></script>
+  </body>
+</html>

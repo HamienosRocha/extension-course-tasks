@@ -1,0 +1,36 @@
+
+01 =================================================
+  Faça um Programa que peça um número e então mostre
+  a mensagem: "O número informado foi [número]". 
+
+02 =================================================
+  Faça um Programa que converta metros para 
+  centímetros.
+
+03 =================================================
+  Faça um Programa que converta centímetros para 
+  polegadas.
+
+04 =================================================
+  Faça um Programa que peça o raio de um círculo, 
+  calcule e mostre sua área.
+
+05 =================================================
+  Faça um Programa que peça a temperatura em graus
+  Farenheit, transforme e mostre a temperatura em 
+  graus Celsius. 
+
+06 =================================================
+  Faça um Programa que peça as 4 notas bimestrais e
+  mostre a média.
+
+07 =================================================
+  Faça um Programa que peça a temperatura em graus
+  Celsius, transforme e mostre em graus Farenheit. 
+
+08 =================================================
+  Faça um Programa que peça o valor da gasolina e do
+  álcool de um posto e diga qual é o combustível 
+  mais vantajoso abastecer, sabendo que somente é 
+  vantagem abastecer álcool se o preço do mesmo é 
+  menor ou igual a 70% do valor da gasolina.

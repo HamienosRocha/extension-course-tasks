@@ -1,0 +1,136 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 8rem 0 12rem;
+}
+
+.quiz-painel {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 2rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 0 var(--yellow);
+}
+
+#quiz-painel__progress {
+    margin-bottom: 1rem;
+}
+
+#quiz-painel__question {
+    background-color:  var(--yellow);
+    font-size: 5rem;
+    padding: .4rem;
+    margin-bottom: 4rem;
+    border-radius:  .5rem;
+}
+
+.quiz-painel__choice-container {
+    background-color: var(--gray-2);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.choice-prefix {
+    background-color: #000;
+    color: #fff;
+    padding: .5rem .8rem;
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.choice-text {
+    width: 100%;
+    padding: .5rem 1rem .8rem;
+}
+
+.quiz-painel__choice-container:hover {
+    background-color:  var(--yellow);
+}
+
+.correct {
+    background-color: var(--green);
+}
+
+.incorrect {
+    background-color: var(--red);
+}
+
+
+.result {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 2rem;
+    margin-top: 7rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 0  var(--yellow);
+}
+
+.result h1 {
+    margin-bottom: 2rem;
+}
+
+.result button {
+    font-weight: bold;
+    padding: 1rem .8rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: .2rem solid black;
+}
+
+#result__score {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#result__btn-try-again {
+    background-color: var(--blue);
+    margin-right: .5rem;
+}
+
+#result__btn-try-again:hover {
+    background-color: var(--blue);
+}
+
+@media (max-width: 700px) {
+    #quiz-painel__question {
+        font-size: 3rem;
+    }
+
+    .quiz-painel__choice-container {
+        font-size: 2.7rem;
+    }
+
+    .result div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #result__score {
+        margin-bottom: 3rem;
+    }
+    
+    #result__btn-try-again {
+        font-size: 1.8rem;
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .quiz-painel {
+        width: 90%;
+    }
+}

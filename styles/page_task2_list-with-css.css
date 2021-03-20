@@ -1,0 +1,41 @@
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+.list-dl {
+    grid-column: 1 / span 2;
+}
+
+.list-dl dl {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.list-dl dl dt {
+    margin-bottom: 1rem;
+} 
+
+.list-dl dl div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+@media (max-width: 620px) {
+    #grid {
+        grid-template-columns: 1fr;
+    }
+
+    .list-dl {
+        grid-column: 1 / span 1;
+    }
+}

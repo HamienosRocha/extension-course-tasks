@@ -1,0 +1,53 @@
+:root{
+    --color-background-body: #e3e3e6;
+    --color-background-card1: #23f794;
+    --color-background-card2: #28D182;
+    --color-black: #3a3636;
+    --color-border-input-card: #1c7c4f;
+    --color-focus-dashed: #e4fc53;
+    --color-tag: tomato;
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background-body);
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+}
+
+body,
+button,
+input {
+    font: 500 1.9rem Poppins, Arial, sans-serif;
+}
+
+#container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+code {
+    color: var(--color-tag);
+    padding: 0 .2rem;
+    border-radius: .5rem;
+}

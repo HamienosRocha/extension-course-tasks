@@ -1,0 +1,58 @@
+#grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards:not(.ex8) input {
+    margin-bottom: 2rem;
+}
+
+.ex8 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ex8 input {
+    width: 100%;
+}
+
+.ex8__div-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.ex8__div-inputs div {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#ex8__div-price-gas::before {
+    content: 'Preço gasolina';
+    font-size: 2rem;
+    position: absolute;
+    top: .4rem;
+    left: -15.8rem;
+}
+
+#ex8__div-price-alc::before {
+    content: 'Preço álcool';
+    font-size: 2rem;
+    position: absolute;
+    top: .4rem;
+    left: -13.3rem;
+}
+
+@media (max-width: 800px) {
+    #grid {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
+}

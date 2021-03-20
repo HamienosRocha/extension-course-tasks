@@ -1,0 +1,93 @@
+:root {
+  --blue: #0280c4;
+  --gray: #252830;
+  --green: #44bd32;
+  --red: #c23616;
+  --yellow: #e1b12c;
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--gray);
+  min-height: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#container {
+  min-height: 100%;
+}
+
+header {
+  padding: 4rem 2rem 2rem 10rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--yellow);
+  font-size: 1.8rem;
+  letter-spacing: 0.8rem;
+  text-shadow: 0.2rem 0.2rem 0 white;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+header a:hover {
+  text-shadow: 0.2rem 0.2rem 0 white, 0.5rem 0.5rem 0 var(--green),
+    0.7rem 0.7rem 0 var(--blue), 0.9rem 0.9rem 0 var(--red);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 0 10rem;
+}
+
+.card {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.3rem solid white;
+  padding: 3rem 4rem;
+  margin: 0 15rem;
+  box-shadow: 0.5rem 0.5rem 0 white;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0.5rem 0.5rem 0 white, 1rem 1rem 0 var(--green),
+    1.5rem 1.5rem 0 var(--blue), 2rem 2rem 0 var(--red);
+}
+
+.card h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-shadow: 0.5rem 0.5rem 0 black;
+}
+
+.card p {
+  color: var(--gray);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3.5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    margin: 0 10rem;
+  }
+}
