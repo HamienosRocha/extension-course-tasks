@@ -34,3 +34,5 @@ Criação de um site qualquer contendo:
 - [x] e obrigatoriamente uma pagina "Sobre mim"
 
 **As tarefas estão dentro do diretório `/tasks`.**
+
+** Open on GitHub Pages:** (https://hamienosrocha.github.io/baskhara/) 
