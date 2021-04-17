@@ -35,4 +35,4 @@ Criação de um site qualquer contendo:
 
 **As tarefas estão dentro do diretório `/tasks`.**
 
-** Open on GitHub Pages:** (https://hamienosrocha.github.io/baskhara/) 
+** Open on GitHub Pages:** (https://hamienosrocha.github.io/extension-course-tasks/) 
